@@ -1,0 +1,27 @@
+# 冒烟配置：极小步数，用于 CI / 演示"1 分钟跑通全链路"
+model:
+  n_layer: 2
+  n_head: 4
+  n_embd: 64
+  block_size: 96
+
+pretrain:
+  max_steps: 30
+  eval_interval: 15
+  log_interval: 10
+
+sft:
+  epochs: 1
+
+reward:
+  epochs: 1
+
+ppo:
+  max_steps: 3
+  ppo_epochs: 2
+  horizon: 32
+  max_new_tokens: 32
+
+dqn:
+  episodes: 30
+  eval_interval: 10

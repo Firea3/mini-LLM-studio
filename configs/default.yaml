@@ -1,0 +1,131 @@
+# MiniLLM Studio 默认配置（与 minillm/config.py 中的 dataclass 默认值一致）
+# 用法：python scripts/train_pretrain.py --config configs/default.yaml
+model:
+  vocab_size: 1200          # 实际训练时由 tokenizer 覆盖
+  block_size: 128
+  n_layer: 3
+  n_head: 4
+  n_embd: 96
+  dropout: 0.1
+  tie_weights: true
+  init_std: 0.02
+
+pretrain:
+  batch_size: 16
+  lr: 0.003
+  weight_decay: 0.01
+  max_steps: 300
+  warmup_steps: 20
+  eval_interval: 50
+  eval_batches: 5
+  grad_clip: 1.0
+  val_ratio: 0.1
+  seed: 42
+  device: cpu
+  log_interval: 50
+  min_freq: 1
+  max_vocab: 3000
+
+sft:
+  epochs: 6
+  batch_size: 8
+  lr: 0.001
+  weight_decay: 0.01
+  grad_clip: 1.0
+  val_ratio: 0.1
+  seed: 0
+  device: cpu
+  use_lora: false
+  lora_r: 8
+  lora_alpha: 16.0
+  lora_dropout: 0.05
+  log_interval: 20
+
+reward:
+  epochs: 6
+  batch_size: 8
+  lr: 0.001
+  weight_decay: 0.01
+  grad_clip: 1.0
+  val_ratio: 0.2
+  seed: 0
+  device: cpu
+  margin: 0.0
+  log_interval: 20
+
+ppo:
+  max_steps: 80              # PPO 迭代轮数（每轮 batch_prompts 条 prompt）
+  batch_prompts: 8
+  horizon: 48
+  lr: 0.00002                # 小学习率保证策略不偏离 SFT 太远
+  value_lr: 0.0005
+  clip: 0.2
+  kl_coef: 0.2               # token 级 KL 惩罚系数（越大越"安全"）
+  gamma: 1.0
+  lam: 0.95
+  ppo_epochs: 2
+  minibatch_size: 8
+  entropy_coef: 0.01
+  temperature: 0.8
+  top_k: 0
+  seed: 0
+  device: cpu
+  log_interval: 5
+  max_new_tokens: 48
+
+dqn:
+  episodes: 150
+  max_steps: 50
+  gamma: 0.95
+  lr: 0.001
+  buffer_size: 5000
+  batch_size: 32
+  learning_starts: 100
+  target_update: 20
+  epsilon_start: 1.0
+  epsilon_end: 0.05
+  epsilon_decay: 0.985
+  eval_interval: 25
+  eval_episodes: 5
+  hidden: 64
+  seed: 0
+  device: cpu
+  log_interval: 25
+
+rag:
+  top_k: 3
+  bm25_k1: 1.5
+  bm25_b: 0.75
+  min_score: 0.0
+  max_context_chars: 800
+  snippet_chars: 120
+  use_native: false
+  guard_model_output: true   # 小模型生成结果做质量校验，不合格时回退抽取式答案
+
+agent:
+  max_steps: 5
+  planner: rule
+  tools:
+    - calculator
+    - knowledge_search
+    - text_stats
+    - unit_convert
+
+serve:
+  host: 127.0.0.1
+  port: 8000
+  log_level: info
+  policy_ckpt: artifacts/ppo/model.pt
+  fallback_policy_ckpt: artifacts/sft/model.pt
+  tokenizer_path: artifacts/tokenizer.json
+  reward_ckpt: artifacts/reward/model.pt
+  max_new_tokens: 64
+  temperature: 0.8
+  top_k: 0
+  rag_top_k: 3
+  allow_fallback: true
+
+paths:
+  data_dir: data
+  artifacts_dir: artifacts
+  reports_dir: reports

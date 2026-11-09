@@ -1,0 +1,6 @@
+{"task": "计算 (125+75)*3/5 等于多少", "expected_keywords": ["120"], "expected_tools": ["calculator"]}
+{"task": "36 摄氏度等于多少华氏度？", "expected_keywords": ["96.8"], "expected_tools": ["unit_convert"]}
+{"task": "图书馆周五几点闭馆？", "expected_keywords": ["22:00"], "expected_tools": ["knowledge_search"]}
+{"task": "宿舍报修电话是多少？", "expected_keywords": ["8260 1122", "82601122"], "expected_tools": ["knowledge_search"]}
+{"task": "统计这段文字有多少个字：西安交通大学", "expected_keywords": ["6"], "expected_tools": ["text_stats"]}
+{"task": "国家奖学金一年多少钱？", "expected_keywords": ["8000"], "expected_tools": ["knowledge_search"]}

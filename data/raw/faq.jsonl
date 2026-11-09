@@ -1,0 +1,50 @@
+{"id": "faq-001", "doc_id": "kb-campus-01", "title": "第一食堂早餐时间", "question": "第一食堂早餐几点开始？", "answer": "第一食堂早餐开放时间为 7:00-9:00，午餐 11:00-13:00，晚餐 17:00-19:30。", "tags": ["餐饮"], "split": "train"}
+{"id": "faq-002", "doc_id": "kb-campus-01", "title": "第二食堂营业时间", "question": "第二食堂晚上几点关门？", "answer": "第二食堂晚餐营业到 21:00，一楼夜宵档口营业到 22:00。", "tags": ["餐饮"], "split": "train"}
+{"id": "faq-003", "doc_id": "kb-campus-01", "title": "食堂支付方式", "question": "食堂可以用微信支付吗？", "answer": "可以。食堂支持校园卡、微信和支付宝，校园卡可在充值机或「校园生活」App 充值。", "tags": ["餐饮", "支付"], "split": "train"}
+{"id": "faq-004", "doc_id": "kb-campus-01", "title": "外卖柜位置", "question": "外卖可以送到宿舍楼下吗？", "answer": "可以。学校在 3 号宿舍楼旁设置了外卖柜，骑手统一放柜，学生凭取餐码领取。", "tags": ["餐饮", "外卖"], "split": "train"}
+{"id": "faq-005", "doc_id": "kb-campus-01", "title": "清真食堂位置", "question": "清真食堂在哪里？", "answer": "清真食堂位于第二食堂二楼东侧，营业时间为 7:00-20:30。", "tags": ["餐饮", "清真"], "split": "train"}
+{"id": "faq-006", "doc_id": "kb-campus-02", "title": "图书馆开放时间", "question": "图书馆开放时间是什么时候？", "answer": "图书馆周一至周五 8:00-22:00，周六周日 9:00-21:00，节假日另行通知。", "tags": ["图书馆"], "split": "train"}
+{"id": "faq-007", "doc_id": "kb-campus-02", "title": "本科生借书规则", "question": "本科生能借几本书？", "answer": "本科生最多可借 10 册，借期 30 天，可续借 2 次，每次 15 天。", "tags": ["图书馆", "借阅"], "split": "train"}
+{"id": "faq-008", "doc_id": "kb-campus-02", "title": "图书馆座位预约", "question": "怎么预约图书馆座位？", "answer": "通过「西小图」小程序预约座位，到馆后扫码签到；违约 3 次将暂停预约权限 7 天。", "tags": ["图书馆", "预约"], "split": "train"}
+{"id": "faq-009", "doc_id": "kb-campus-02", "title": "图书馆饮食规定", "question": "图书馆可以带食物吗？", "answer": "不可以。食物和饮料不能带入阅览区，可在图书馆一层的休息区用餐。", "tags": ["图书馆"], "split": "train"}
+{"id": "faq-010", "doc_id": "kb-campus-02", "title": "图书馆自习区", "question": "图书馆有自习室吗？", "answer": "有。图书馆 3-5 层为自习区，考试周延长开放至 23:00。", "tags": ["图书馆", "自习"], "split": "train"}
+{"id": "faq-011", "doc_id": "kb-campus-03", "title": "宿舍门禁时间", "question": "宿舍门禁几点？", "answer": "宿舍门禁时间为 23:30，晚归需要在宿管处登记，多次晚归会通报学院。", "tags": ["宿舍"], "split": "train"}
+{"id": "faq-012", "doc_id": "kb-campus-03", "title": "宿舍水电缴费", "question": "宿舍水电费怎么交？", "answer": "通过「校园生活」App 的「水电充值」在线缴纳，欠费会在 3 天后断电。", "tags": ["宿舍", "缴费"], "split": "train"}
+{"id": "faq-013", "doc_id": "kb-campus-03", "title": "宿舍报修电话", "question": "宿舍报修电话是多少？", "answer": "后勤报修电话 8260 1122，也可在「校园生活」App 在线报修，一般 24 小时内响应。", "tags": ["宿舍", "报修"], "split": "train"}
+{"id": "faq-014", "doc_id": "kb-campus-03", "title": "宿舍养宠物规定", "question": "宿舍可以养宠物吗？", "answer": "不可以。宿舍区禁止饲养宠物，违规将按学生手册处理。", "tags": ["宿舍"], "split": "train"}
+{"id": "faq-015", "doc_id": "kb-campus-03", "title": "换寝室流程", "question": "宿舍换寝室流程是什么？", "answer": "需要本人提交申请，经辅导员和公寓管理中心审批，每学期第 2-3 周集中办理。", "tags": ["宿舍", "流程"], "split": "train"}
+{"id": "faq-016", "doc_id": "kb-campus-04", "title": "国家奖学金金额", "question": "国家奖学金一年多少钱？", "answer": "国家奖学金 8000 元/年，要求专业排名前 10% 且无挂科。", "tags": ["奖学金"], "split": "train"}
+{"id": "faq-017", "doc_id": "kb-campus-04", "title": "国家励志奖学金", "question": "国家励志奖学金条件和金额是什么？", "answer": "国家励志奖学金 5000 元/年，面向家庭经济困难且成绩优秀的本科生。", "tags": ["奖学金"], "split": "train"}
+{"id": "faq-018", "doc_id": "kb-campus-04", "title": "助学贷款额度", "question": "助学贷款最高能贷多少？", "answer": "生源地助学贷款每年最高 16000 元，在校期间利息由财政补贴。", "tags": ["资助", "贷款"], "split": "train"}
+{"id": "faq-019", "doc_id": "kb-campus-04", "title": "勤工助学申请", "question": "勤工助学怎么申请？", "answer": "在「学生资助」系统申请勤工助学岗位，每月报酬 400-800 元，每周不超过 8 小时。", "tags": ["资助", "勤工助学"], "split": "train"}
+{"id": "faq-020", "doc_id": "kb-campus-04", "title": "奖学金评定时间", "question": "奖学金什么时候评定？", "answer": "奖学金每学年评定一次，一般在 9 月提交材料，10 月公示结果。", "tags": ["奖学金"], "split": "train"}
+{"id": "faq-021", "doc_id": "kb-campus-05", "title": "选课时间安排", "question": "选课什么时候开始？", "answer": "选课分三轮：预选在上一学期第 13-14 周，正选在开学第 1 周，补退选在第 2 周。", "tags": ["教务", "选课"], "split": "train"}
+{"id": "faq-022", "doc_id": "kb-campus-05", "title": "学期学分上限", "question": "每学期最多修多少学分？", "answer": "每学期建议修 20-24 学分，最多不超过 28 学分。", "tags": ["教务", "学分"], "split": "train"}
+{"id": "faq-023", "doc_id": "kb-campus-05", "title": "成绩复核", "question": "成绩有疑问怎么复核？", "answer": "成绩公布后 5 个工作日内向学院教务办提交复核申请，复核只检查漏评和分数统计。", "tags": ["教务", "成绩"], "split": "train"}
+{"id": "faq-024", "doc_id": "kb-campus-05", "title": "考试作弊处理", "question": "考试作弊会怎么处理？", "answer": "考试作弊按学校规定给予记过以上处分，并取消该课程成绩。", "tags": ["教务", "考试"], "split": "train"}
+{"id": "faq-025", "doc_id": "kb-campus-05", "title": "缓考申请", "question": "怎么申请缓考？", "answer": "因病或其他特殊原因不能参加考试，需在考前向学院提交缓考申请和证明材料。", "tags": ["教务", "考试"], "split": "train"}
+{"id": "faq-026", "doc_id": "kb-campus-06", "title": "校园网连接", "question": "校园网怎么连接？", "answer": "连接 SSID 为 XJTU-EDU 的无线网络，账号是学号，初始密码为身份证后六位。", "tags": ["网络"], "split": "train"}
+{"id": "faq-027", "doc_id": "kb-campus-06", "title": "校外访问数据库", "question": "校外怎么访问学校数据库？", "answer": "校外通过 VPN 访问，地址为 vpn.example.edu.cn，用统一身份认证账号登录。", "tags": ["网络", "VPN"], "split": "train"}
+{"id": "faq-028", "doc_id": "kb-campus-06", "title": "学校邮箱开通", "question": "学校邮箱怎么开通？", "answer": "学校邮箱为 学号@stu.example.edu.cn，默认容量 50GB，在信息中心网站自助开通。", "tags": ["网络", "邮箱"], "split": "train"}
+{"id": "faq-029", "doc_id": "kb-campus-06", "title": "网络故障报修", "question": "网络故障找谁报修？", "answer": "网络故障可拨打 8260 3344 报修，也可在「智慧校园」服务大厅提交工单。", "tags": ["网络", "报修"], "split": "train"}
+{"id": "faq-030", "doc_id": "kb-campus-06", "title": "校园网密码重置", "question": "校园网密码忘了怎么办？", "answer": "在统一身份认证平台点击「忘记密码」，通过绑定手机号验证后重置。", "tags": ["网络", "密码"], "split": "train"}
+{"id": "faq-031", "doc_id": "kb-campus-07", "title": "到西安北站", "question": "学校到西安北站怎么走？", "answer": "乘坐地铁 2 号线到北客站，全程约 40 分钟，票价 5 元。", "tags": ["交通"], "split": "eval"}
+{"id": "faq-032", "doc_id": "kb-campus-07", "title": "西安冬季气温", "question": "西安冬天冷吗？", "answer": "西安冬季最低气温约 -5℃，室内有暖气，建议准备羽绒服。", "tags": ["生活", "天气"], "split": "eval"}
+{"id": "faq-033", "doc_id": "kb-campus-07", "title": "兵马俑交通", "question": "兵马俑怎么去？", "answer": "兵马俑位于临潼区，可乘地铁 9 号线到华清池站转公交 613 路。", "tags": ["交通", "景点"], "split": "eval"}
+{"id": "faq-034", "doc_id": "kb-campus-07", "title": "学生公交卡优惠", "question": "学生公交卡有优惠吗？", "answer": "有。持学生公交卡乘坐公交可享 5 折优惠，地铁 7 折。", "tags": ["交通", "优惠"], "split": "eval"}
+{"id": "faq-035", "doc_id": "kb-campus-07", "title": "西安景点推荐", "question": "西安有哪些必去景点？", "answer": "推荐钟楼、大雁塔、城墙、陕西历史博物馆，其中陕西历史博物馆需提前预约。", "tags": ["景点"], "split": "eval"}
+{"id": "faq-036", "doc_id": "kb-campus-08", "title": "GPU 服务器申请", "question": "GPU 服务器怎么申请？", "answer": "向导师提交申请后，由管理员开通 10.10.8.20 的 GPU 服务器账号，每人每周限额 20 小时。", "tags": ["科研", "GPU"], "split": "train"}
+{"id": "faq-037", "doc_id": "kb-campus-08", "title": "实验室组会时间", "question": "实验室组会是什么时间？", "answer": "实验室组会每周三 19:00 在 3 楼会议室举行，需要提前准备进展报告。", "tags": ["科研", "组会"], "split": "train"}
+{"id": "faq-038", "doc_id": "kb-campus-08", "title": "论文投稿流程", "question": "论文投稿要走什么流程？", "answer": "投稿前在内网科研系统登记，经导师审核；涉密数据禁止上传公网。", "tags": ["科研", "论文"], "split": "train"}
+{"id": "faq-039", "doc_id": "kb-campus-08", "title": "毕业论文学术要求", "question": "毕业需要几篇论文？", "answer": "学术型硕士毕业要求至少 1 篇 SCI/EI 论文，具体以学院当年文件为准。", "tags": ["科研", "毕业"], "split": "train"}
+{"id": "faq-040", "doc_id": "kb-campus-08", "title": "实验数据备份", "question": "实验室数据怎么备份？", "answer": "实验数据统一存放在 NAS 的 /data 目录，每周五自动备份，重要数据建议本地再存一份。", "tags": ["科研", "数据"], "split": "train"}
+{"id": "faq-041", "doc_id": "kb-campus-09", "title": "秋招时间", "question": "秋招是什么时候？", "answer": "秋招集中在 9-11 月，春招在次年 3-4 月，就业中心每周发布招聘信息。", "tags": ["就业"], "split": "train"}
+{"id": "faq-042", "doc_id": "kb-campus-09", "title": "三方协议领取", "question": "三方协议怎么领？", "answer": "到就业中心领取三方协议，签约后 7 个工作日内交回；违约需提交书面说明并承担违约责任。", "tags": ["就业", "三方"], "split": "train"}
+{"id": "faq-043", "doc_id": "kb-campus-09", "title": "毕业档案去向", "question": "毕业后档案去哪里了？", "answer": "毕业后档案由学校统一寄送至就业单位或户籍地人才中心，可在就业中心网站查询去向。", "tags": ["就业", "档案"], "split": "train"}
+{"id": "faq-044", "doc_id": "kb-campus-09", "title": "实习备案要求", "question": "实习需要备案吗？", "answer": "需要。实习前在学院备案并购买意外险，实习期间每周提交一次实习周报。", "tags": ["就业", "实习"], "split": "train"}
+{"id": "faq-045", "doc_id": "kb-campus-09", "title": "报到证用途", "question": "报到证有什么用？", "answer": "报到证用于办理户口迁移和档案接收，具体政策以就业中心当年通知为准。", "tags": ["就业"], "split": "train"}
+{"id": "faq-046", "doc_id": "kb-campus-10", "title": "校医院门诊时间", "question": "校医院几点开门？", "answer": "校医院门诊时间为 8:00-21:00，急诊 24 小时开放，急诊电话 8260 1200。", "tags": ["医疗"], "split": "eval"}
+{"id": "faq-047", "doc_id": "kb-campus-10", "title": "心理咨询预约", "question": "心理咨询怎么预约？", "answer": "心理咨询中心位于大学生活动中心 3 楼，预约电话 8260 5566，工作日 9:00-17:00。", "tags": ["心理", "医疗"], "split": "eval"}
+{"id": "faq-048", "doc_id": "kb-campus-10", "title": "校园报警电话", "question": "校园报警电话是多少？", "answer": "校园报警电话 8260 1100，遇到紧急情况也可直接拨打 110。", "tags": ["安全"], "split": "eval"}
+{"id": "faq-049", "doc_id": "kb-campus-10", "title": "医保报销流程", "question": "医保怎么报销？", "answer": "校医院就医可直接刷医保卡，校外就医报销材料在每月 10-15 日提交到医保办。", "tags": ["医疗", "报销"], "split": "eval"}
+{"id": "faq-050", "doc_id": "kb-campus-10", "title": "失物招领", "question": "丢东西去哪里找？", "answer": "丢失物品可到保卫处失物招领处登记查询，地点在西门值班室旁。", "tags": ["安全", "失物"], "split": "eval"}
